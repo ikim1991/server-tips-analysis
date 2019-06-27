@@ -2,7 +2,7 @@
 
 ## Summary of Analysis
 
-Working as a server my wage is highly dependent on the amount of tips I make on a given shift. Shifts are categorized by the day of the week and whether it was a Day shift or a Night shift. The tip amount varies every shift and generally random depending on the day. In order to help me budget around the variance in my earnings and to optimize my work schedule, I performed an analysis to forecast my weekly tips on Juypter Notebooks.
+Working as a server my wage is highly dependent on the amount of tips I make on a given shift. Shifts are categorized by the day of the week and whether it was a Day shift or a Night shift. The tip amount varies every shift and generally random depending on the day. In order to help me budget around the variance in my earnings and to optimize my work schedule, I performed an analysis to forecast my weekly tips on Jupyter Notebook.
 
 The business problem at hand:
   - Forecasting and budgeting around a high variance pay structure.
@@ -38,7 +38,7 @@ To help me budget and optimize my earning potential as a server, I collected abo
   - Cash Amount Received for the Day
   - Tips Earned After Tip Out (6% Tip Out to Bar and Kitchen)
 
-After extracting the dataset into a CSV file, they are loaded into Python through Juypter Notebook using Pandas.
+After extracting the dataset into a CSV file, they are loaded into Python through Jupyter Notebook using Pandas.
 The CSV files are initially separated into 3 datasets by shift type: [Day](./day_shifts.csv), [Night](./night_shifts.csv) and [Double](./double_shifts.csv).
 
 ```Python
@@ -47,7 +47,7 @@ night = pd.read_csv('night_shifts.csv')
 doubles = pd.read_csv('double_shifts.csv')
 ```
 
-For the full source code, refer to the [Juypter Notebook file](./tips_analysis.ipynb).
+For the full source code, refer to the [Jupyter Notebook file](./tips_analysis.ipynb).
 
 ## Importing Libraries
 
