@@ -4,6 +4,12 @@
 
 Working as a server my wage is highly dependent on the amount of tips I make on a given shift. Shifts are categorized by the day of the week and whether it was a Day shift or a Night shift. The tip amount varies every shift and generally random depending on the day. In order to help me budget around the variance in my earnings and to optimize my work schedule, I performed an analysis to forecast my weekly tips on Juypter Notebooks.
 
+The business problem at hand:
+  - Forecasting and budgeting around a high variance pay structure.
+
+Business value to be added:
+  - Maximizing earnings & Optimizing work schedule
+
 From this analysis we can conclude that there is a positive correlation between total sales volume and tips earned. The higher the sales volume, the more a server earns on tips. This relationship can be seen below in the linear regression plot
 
 ![Linear Regression Plot](./linear_regression.png)
@@ -31,8 +37,6 @@ To help me budget and optimize my earning potential as a server, I collected abo
   - Total Sales for the Day
   - Cash Amount Received for the Day
   - Tips Earned After Tip Out (6% Tip Out to Bar and Kitchen)
-
-The key metric here being the volume of sales done on a given day with the added business value of maximizing my earning potential depending on the Day and Shift.
 
 After extracting the dataset into a CSV file, they are loaded into Python through Juypter Notebook using Pandas.
 The CSV files are initially separated into 3 datasets by shift type: [Day](./day_shifts.csv), [Night](./night_shifts.csv) and [Double](./double_shifts.csv).
